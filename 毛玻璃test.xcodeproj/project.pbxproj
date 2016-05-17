@@ -16,6 +16,7 @@
 		22316D1F1CA2327B00E4D798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22316D1D1CA2327B00E4D798 /* LaunchScreen.storyboard */; };
 		22316D2A1CA2327B00E4D798 /* ___testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22316D291CA2327B00E4D798 /* ___testTests.m */; };
 		22316D351CA2327B00E4D798 /* ___testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22316D341CA2327B00E4D798 /* ___testUITests.m */; };
+		229FF8211CAA7F350088441C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229FF8201CAA7F350088441C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		22316D301CA2327B00E4D798 /* 毛玻璃testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "毛玻璃testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22316D341CA2327B00E4D798 /* ___testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___testUITests.m"; sourceTree = "<group>"; };
 		22316D361CA2327B00E4D798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229FF81F1CAA7F350088441C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		229FF8201CAA7F350088441C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				22316D101CA2327B00E4D798 /* AppDelegate.m */,
 				22316D121CA2327B00E4D798 /* ViewController.h */,
 				22316D131CA2327B00E4D798 /* ViewController.m */,
+				229FF81F1CAA7F350088441C /* SecondViewController.h */,
+				229FF8201CAA7F350088441C /* SecondViewController.m */,
 				22316D151CA2327B00E4D798 /* Main.storyboard */,
 				22316D1B1CA2327B00E4D798 /* Assets.xcassets */,
 				22316D1D1CA2327B00E4D798 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229FF8211CAA7F350088441C /* SecondViewController.m in Sources */,
 				22316D141CA2327B00E4D798 /* ViewController.m in Sources */,
 				22316D1A1CA2327B00E4D798 /* ___test.xcdatamodeld in Sources */,
 				22316D111CA2327B00E4D798 /* AppDelegate.m in Sources */,
@@ -418,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "毛玻璃test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaozai.---test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "毛玻璃test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaozai.---test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +510,7 @@
 				22316D3B1CA2327C00E4D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22316D3C1CA2327C00E4D798 /* Build configuration list for PBXNativeTarget "毛玻璃testTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +519,7 @@
 				22316D3E1CA2327C00E4D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22316D3F1CA2327C00E4D798 /* Build configuration list for PBXNativeTarget "毛玻璃testUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				22316D411CA2327C00E4D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
